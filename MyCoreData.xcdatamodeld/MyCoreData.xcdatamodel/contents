@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CollectionNews" syncable="YES">
+        <attribute name="newsContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsPublishTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OnlineEmploy" syncable="YES">
+        <attribute name="newsContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsPublishTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PractiseEmploy" syncable="YES">
+        <attribute name="newsContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsPublishTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RecentlyNews" syncable="YES">
+        <attribute name="newsContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsPublishTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SchoolEmploy" syncable="YES">
+        <attribute name="newsContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsPublishTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CollectionNews" positionX="-18" positionY="54" width="128" height="88"/>
+        <element name="OnlineEmploy" positionX="-180" positionY="162" width="128" height="88"/>
+        <element name="PractiseEmploy" positionX="-20" positionY="-126" width="128" height="88"/>
+        <element name="RecentlyNews" positionX="-216" positionY="-18" width="128" height="90"/>
+        <element name="SchoolEmploy" positionX="-396" positionY="-0" width="128" height="88"/>
+    </elements>
+</model>
